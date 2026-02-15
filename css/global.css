@@ -6,18 +6,30 @@
   box-sizing: border-box;
 }
 body {
-  background: #eee;
+  background: #9ab1aa80;
   font-family: Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.2;
   color: #222;
 }
+
+#app {
+  position: relative;
+}
+#app::before {
+  content: "🌾";
+  position: absolute;
+  top: -63px;
+  left: 100;
+  font-size: 28px;
+}
 .section-center {
   margin: 0 auto;
   margin-top: 8rem;
   max-width: 30rem;
-  background: #fff;
+  background: #caf7db;
   border-radius: 0.25rem;
   padding: 2rem;
   position: relative;
+  border: 1px solid #014013;
 }
